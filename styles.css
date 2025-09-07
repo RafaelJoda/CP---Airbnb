@@ -1,4 +1,3 @@
-/* Font Awesome Icon Adjustments */
 .fas, .far {
     margin-right: 8px;
 }
@@ -25,8 +24,6 @@
     margin: 0;
 }
 
-
-
 .host-badge .fas {
     margin-right: 6px;
     color: #FF385C;
@@ -42,7 +39,6 @@
     margin-right: 4px;
 }
 
-/* Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -57,11 +53,10 @@ body {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 24px;
 }
-
 
 .header {
     background: #fff;
@@ -78,11 +73,9 @@ body {
     height: 80px;
 }
 
-.logo h1 {
-    color: #FF385C;
-    font-size: 32px;
-    font-weight: 700;
-    letter-spacing: -1px;
+.logo img {
+    width: 150px;
+    flex-grow: 1;
 }
 
 .search-bar {
@@ -91,7 +84,7 @@ body {
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 40px;
-    padding: 8px;
+    padding: 1px 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     transition: box-shadow 0.3s ease;
 }
@@ -113,10 +106,6 @@ body {
 .search-item span {
     font-size: 14px;
     font-weight: 500;
-}
-
-.search-item .light {
-    color: #717171;
 }
 
 .search-btn {
@@ -178,11 +167,9 @@ body {
     transition: background 0.3s ease;
 }
 
-
 .main {
     padding: 24px 0;
 }
-
 
 .property-header {
     display: flex;
@@ -212,8 +199,6 @@ body {
     color: #222;
     text-decoration: underline;
 }
-
-
 
 .property-actions {
     display: flex;
@@ -555,7 +540,6 @@ iframe {
   margin-bottom: 20px;
 }
 
-/* Card do anfitrião */
 .host-card {
   background: #fff;
   border-radius: 12px;
@@ -590,7 +574,6 @@ iframe {
   margin: 5px 0;
 }
 
-/* Detalhes */
 .host-details {
   flex: 1;
 }
@@ -644,7 +627,6 @@ iframe {
   background: #e5e5e5;
 }
 
-/* Extras */
 .host-extra {
   margin: 20px 0;
   font-size: 14px;
@@ -758,15 +740,6 @@ iframe {
     gap: 10px;
   }
 }
-
-
-
-
-
-
-
-
-
 
 .booking-sidebar {
     top: 100px;
@@ -968,11 +941,6 @@ iframe {
   }
 }
 
-
-
-
-
-
 @media (max-width: 1024px) {
     .content-grid {
         grid-template-columns: 1fr;
@@ -1047,7 +1015,6 @@ iframe {
     }
 
     .booking-card {
-        pading: 16px;
+        padding: 16px;
     }
 }
-
