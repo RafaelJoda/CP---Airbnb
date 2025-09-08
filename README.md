@@ -1,7 +1,8 @@
 # Checkpoint - Front end
 
-Turma 1Espz
-Rafael Joda Rm561939
+Turma <br> 1Espz
+Rafael Joda Rm561939 
+<br>
 Luis Miguel Rm561232
 
 # Link da referência do airbnb 
