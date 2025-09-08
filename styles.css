@@ -18,7 +18,7 @@
     margin-right: 12px;
 }
 
-.highlight-icon .fas {
+.destaque-icon .fas {
     color: #FF385C;
     font-size: 20px;
     margin: 0;
@@ -347,28 +347,28 @@ body {
     font-weight: 500;
 }
 
-.propiedade-highlights {
+.propiedade-destaques {
     margin: 32px 0;
 }
 
-.highlight {
+.destaque {
     display: flex;
     gap: 16px;
     margin-bottom: 24px;
 }
 
-.highlight-icon {
+.destaque-icon {
     font-size: 24px;
     width: 32px;
     flex-shrink: 0;
 }
 
-.highlight h3 {
+.destaque h3 {
     font-weight: 600;
     margin-bottom: 4px;
 }
 
-.highlight p {
+.destaque p {
     color: #717171;
     font-size: 14px;
 }
@@ -389,7 +389,7 @@ body {
     line-height: 1.6;
 }
 
-.show-more {
+.mostrar-mais {
     background: none;
     border: none;
     color: #222;
