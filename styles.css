@@ -440,37 +440,37 @@ body {
 }
 
 
-.reviews {
+.avaliacoes {
     border-bottom: 1px solid #ddd;
     padding-bottom: 48px;
     margin-bottom: 48px;
 }
 
-.reviews-header h2 {
+.avaliacoes-header h2 {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 32px;
 }
 
-.reviews-grid {
+.avaliacoes-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     margin-bottom: 24px;
 }
 
-.review {
+.avaliacoes {
     padding: 0;
 }
 
-.review-header {
+.avaliacoes-header {
     display: flex;
     align-items: center;
     gap: 12px;
     margin-bottom: 16px;
 }
 
-.reviewer-avatar {
+.avaliacoes-avatar {
     width: 48px;
     height: 48px;
     background: linear-gradient(135deg, #667eea, #764ba2);
@@ -482,17 +482,17 @@ body {
     font-weight: bold;
 }
 
-.review-date {
+.avaliacoes-date {
     color: #717171;
     font-size: 14px;
 }
 
-.review p:last-child {
+.avaliacoes p:last-child {
     color: #484848;
     line-height: 1.6;
 }
 
-.show-all-reviews {
+.todas-avaliacoes {
     background: none;
     border: 1px solid #222;
     padding: 12px 24px;
@@ -502,7 +502,7 @@ body {
     transition: all 0.3s ease;
 }
 
-.show-all-reviews:hover {
+.todas-avaliacoes:hover {
     background: #222;
     color: #fff;
 }
@@ -525,22 +525,22 @@ body {
 iframe {
   border: none;
   border-radius: 12px;
-  width: 100%;
+  width: 1400px;
   height: 450px;
 }
 
-.host-section h2 {
+.anfitriao-section h2 {
   font-size: 22px;
   margin-bottom: 20px;
 }
 
-.host-container {
+.anfitriao-container {
   display: flex;
   gap: 30px;
   margin-bottom: 20px;
 }
 
-.host-card {
+.anfitriao-card {
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -551,7 +551,7 @@ iframe {
   align-items: center;
 }
 
-.host-img {
+.anfitriao-img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -559,26 +559,26 @@ iframe {
   margin-bottom: 10px;
 }
 
-.host-header {
+.anfitriao-header {
   margin-bottom: 10px;
 }
 
 
-.host-stats {
+.anfitriao-stats {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.host-stats li {
+.anfitriao-stats li {
   margin: 5px 0;
 }
 
-.host-details {
+.anfitriao-detalhe {
   flex: 1;
 }
 
-.cohosts {
+.coanfitrioes {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -586,21 +586,21 @@ iframe {
   margin: 10px 0 20px;
 }
 
-.cohost {
+.coanfitrioes {
   display: flex;
   gap: 10px;
   align-items: center;
   font-size: 14px;
 }
 
-.cohost img {
+.coanfitrioes img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin-bottom: 5px;
 }
 
-.cohost-circle {
+.coanfitrioes-circle {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -627,12 +627,12 @@ iframe {
   background: #e5e5e5;
 }
 
-.host-extra {
+.anfitriao-extra {
   margin: 20px 0;
   font-size: 14px;
 }
 
-.host-warning {
+.anfitriao-alerta {
   border-top: 1px solid #ddd;
   margin-top: 20px;
   padding-top: 15px;
@@ -654,33 +654,33 @@ iframe {
   margin-bottom: 30px;
 }
 
-.footer-col {
+.footer-coluna {
   flex: 1;
   min-width: 220px;
   margin-bottom: 20px;
 }
 
-.footer-col h4 {
+.footer-coluna h4 {
   font-size: 16px;
   margin-bottom: 12px;
 }
 
-.footer-col ul {
+.footer-coluna ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.footer-col ul li {
+.footer-coluna ul li {
   margin-bottom: 8px;
 }
 
-.footer-col ul li a {
+.footer-coluna ul li a {
   text-decoration: none;
   color: #555;
 }
 
-.footer-col ul li a:hover {
+.footer-coluna ul li a:hover {
   text-decoration: underline;
 }
 
@@ -708,24 +708,24 @@ iframe {
   text-decoration: underline;
 }
 
-.footer-actions {
+.footer-icons {
   display: flex;
   align-items: center;
   gap: 15px;
 }
 
-.footer-actions span {
+.footer-icons span {
   color: #222;
   font-size: 14px;
 }
 
-.footer-actions i {
+.footer-icons i {
   font-size: 16px;
   color: #222;
   cursor: pointer;
 }
 
-.footer-actions i:hover {
+.footer-icons i:hover {
   color: #000;
 }
 
@@ -741,32 +741,32 @@ iframe {
   }
 }
 
-.booking-sidebar {
+.reserva-sidebar {
     top: 100px;
     height: fit-content;
 }
 
-.booking-card {
+.reserva-card {
     border: 1px solid #ddd;
     border-radius: 12px;
     padding: 24px;
     box-shadow: 0 6px 16px rgba(0,0,0,0.12);
 }
 
-.booking-header {
+.reserva-header {
     margin-bottom: 24px;
 }
 
-.price {
+.preco {
     margin-bottom: 8px;
 }
 
-.price-value {
+.preco-valor {
     font-size: 22px;
     font-weight: 600;
 }
 
-.price-unit {
+.preco-diaria {
     color: #717171;
     margin-left: 4px;
 }
@@ -778,13 +778,13 @@ iframe {
     font-size: 14px;
 }
 
-.booking-form {
+.reserva-form {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.date-inputs {
+.data-inputs {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border: 1px solid #ddd;
@@ -792,16 +792,16 @@ iframe {
     overflow: hidden;
 }
 
-.date-input {
+.data-input {
     padding: 12px;
     border-right: 1px solid #ddd;
 }
 
-.date-input:last-child {
+.data-input:last-child {
     border-right: none;
 }
 
-.date-input label {
+.data-input label {
     display: block;
     font-size: 10px;
     font-weight: 600;
@@ -811,7 +811,7 @@ iframe {
     color: #222;
 }
 
-.date-input input {
+.data-input input {
     border: none;
     outline: none;
     font-size: 14px;
@@ -820,13 +820,13 @@ iframe {
     background: transparent;
 }
 
-.guests-input {
+.hospedes-input {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 12px;
 }
 
-.guests-input label {
+.hospedes-input label {
     display: block;
     font-size: 10px;
     font-weight: 600;
@@ -836,23 +836,23 @@ iframe {
     color: #222;
 }
 
-.guests-selector {
+.hospedes-selector {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.guests-selector span {
+.hospedes-selector span {
     font-size: 14px;
     font-weight: 500;
 }
 
-.guests-controls {
+.hospedes-controls {
     display: flex;
     gap: 8px;
 }
 
-.guest-btn {
+.hospedes-btn {
     width: 32px;
     height: 32px;
     border: 1px solid #ddd;
@@ -866,7 +866,7 @@ iframe {
     transition: all 0.3s ease;
 }
 
-.guest-btn:hover {
+.hospedes-btn:hover {
     border-color: #222;
 }
 
@@ -886,7 +886,7 @@ iframe {
     background: #E31C5F;
 }
 
-.no-charge {
+.descricao-reserva {
     text-align: center;
     color: #717171;
     font-size: 14px;
@@ -1000,16 +1000,16 @@ iframe {
         gap: 32px;
     }
 
-    .date-inputs {
+    .data-inputs {
         grid-template-columns: 1fr;
     }
 
-    .date-input {
+    .data-input {
         border-right: none;
         border-bottom: 1px solid #ddd;
     }
 
-    .date-input:last-child {
+    .data-input:last-child {
         border-bottom: none;
     }
 }
