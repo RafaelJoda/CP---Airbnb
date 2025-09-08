@@ -646,6 +646,11 @@ iframe {
   font-size: 14px;
 }
 
+footer p {
+    margin-left: 20px;
+    margin-bottom: 6em;
+}
+
 .footer-top {
   display: flex;
   flex-wrap: wrap;
