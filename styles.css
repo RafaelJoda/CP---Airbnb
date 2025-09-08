@@ -53,7 +53,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 24px;
 }
@@ -169,6 +169,16 @@ body {
 
 .main {
     padding: 24px 0;
+}
+
+.propiedade-destaques {
+      border-bottom: 1px solid #ddd;
+      padding: 10px;
+}
+
+.propiedade-descricao {
+      border-bottom: 1px solid #ddd;
+      padding: 10px;
 }
 
 .propriedade-header {
@@ -443,6 +453,9 @@ body {
     border-bottom: 1px solid #ddd;
     padding-bottom: 48px;
     margin-bottom: 48px;
+     width: 650px;
+
+
 }
 
 .avaliacoes-header h2 {
@@ -458,9 +471,7 @@ body {
     margin-bottom: 24px;
 }
 
-.avaliacoes {
-    padding: 0;
-}
+
 
 .avaliacoes-header {
     display: flex;
@@ -492,18 +503,19 @@ body {
 }
 
 .todas-avaliacoes {
-    background: none;
-    border: 1px solid #222;
-    padding: 12px 24px;
+    background: #ddddddce;
+    padding: 16px 24px;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    border: none;
+    font-size: 20px;
+    
 }
 
 .todas-avaliacoes:hover {
-    background: #222;
-    color: #fff;
+    color: #000000;
 }
 
 .map-container {
@@ -545,9 +557,11 @@ iframe {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   padding: 20px;
   text-align: center;
-  width: 350px;
+  width: 500px;
   display: flex;
   align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 300px;
 }
 
 .anfitriao-img {
@@ -562,8 +576,27 @@ iframe {
   margin-bottom: 10px;
 }
 
+.anfitriao-estatisticas li:last-child {
+    font-size: 15px;
+}
+
+.anfitriao-estatisticas li:first-child {
+    font-size: 25px;
+}
+
+.anfitriao-estatisticas{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0px;
+}
+
+.felipe {
+    margin-inline: 110px;
+}
 
 .anfitriao-stats {
+    
   list-style: none;
   padding: 0;
   margin: 0;
@@ -575,22 +608,17 @@ iframe {
 
 .anfitriao-detalhe {
   flex: 1;
+  font-size: 20px;
 }
 
 .coanfitrioes {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 0px;
+  gap: 200px 30px;
   margin: 10px 0 20px;
 }
 
-.coanfitrioes {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  font-size: 14px;
-}
+
 
 .coanfitrioes img {
   width: 50px;
@@ -628,14 +656,15 @@ iframe {
 
 .anfitriao-extra {
   margin: 20px 0;
-  font-size: 14px;
+  font-size: 20px;
+  
 }
 
 .anfitriao-alerta {
   border-top: 1px solid #ddd;
   margin-top: 20px;
   padding-top: 15px;
-  font-size: 13px;
+  font-size: 16px;
   color: #555;
 }
 
